@@ -389,8 +389,8 @@ footer a {
   }
 
   .input-text input {
-    outline: none;
-    width: 210px;
+    outline: red;
+    width: 200px;
     color: #6b6b6b;
     /* padding-left: 20px; */
     padding-left: 5px;
@@ -406,10 +406,11 @@ footer a {
     background-color: #0465ac;
     font-size: 16px;
     border-radius: 7px;
-    padding-top: 10px;
+    padding: 10px;
+    /* padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 30px;
-    padding-right: 30px;
+    padding-right: 30px; */
     margin-left: 10px;
   }
 
@@ -430,16 +431,16 @@ footer a {
   }
 
   .image-bn {
-    width: 70px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     background-color: #1c1c1c;
     padding: 5px;
     border-radius: 7px;
     cursor: pointer;
   }
   .image-item {
-    width: 150px;
-    height: 150px;
+    width: 140px;
+    height: 140px;
     background-color: #1c1c1c;
     padding: 5px;
     border-radius: 7px;
