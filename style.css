@@ -5,12 +5,8 @@
 
 body {
   background-color: #d9d9d9;
-  overflow-x: hidden;
 }
 
-.container {
-  overflow-x: hidden;
-}
 .dark-mode {
   background-color: black;
   color: white;
@@ -19,7 +15,6 @@ body {
 .navbar {
   background-color: white;
   color: #0000;
-  overflow-x: hidden;
   display: flex;
   justify-content: space-between;
   /* height: 100vh; */
@@ -301,7 +296,7 @@ footer a {
     padding: 30px;
     border-bottom: 1px solid #b4b4b4;
     text-align: center;
-    /* position: absolute; */
+    position: absolute;
   }
 
   .medium a {
