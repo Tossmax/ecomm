@@ -5,7 +5,6 @@
 
 body {
   background-color: #d9d9d9;
-  overflow-x: hidden;
 }
 
 .dark-mode {
@@ -22,6 +21,7 @@ body {
   text-align: center;
   padding: 30px;
   border-bottom: 0.1px solid #b4b4b4;
+  overflow: hidden;
 }
 
 .navbar a {
@@ -296,6 +296,7 @@ footer a {
     padding: 30px;
     border-bottom: 1px solid #b4b4b4;
     text-align: center;
+    overflow: hidden;
   }
 
   .medium a {
@@ -321,7 +322,6 @@ footer a {
     background-color: white;
     padding: 30px;
     position: absolute;
-    overflow: hidden;
     width: 90%;
     /* margin-left: -30px; */
     /* margin-top: -15px; */
