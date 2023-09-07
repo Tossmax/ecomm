@@ -275,6 +275,7 @@ footer a {
 @media only screen and (max-width: 640px) {
   body {
     overflow-x: hidden;
+    position: absolute;
   }
 
   .sidenav {
@@ -372,7 +373,7 @@ footer a {
   .search-body {
     display: flex;
     flex-direction: row;
-    margin-left: 25px;
+    margin-left: 20px;
   }
 
   .sub-body {
@@ -393,7 +394,6 @@ footer a {
     outline: none;
     width: 180px;
     color: #6b6b6b;
-    /* padding-left: 20px; */
     padding-left: 5px;
   }
 
@@ -410,10 +410,6 @@ footer a {
     font-size: 16px;
     border-radius: 7px;
     padding: 10px;
-    /* padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 30px;
-    padding-right: 30px; */
     margin-left: 30px;
   }
 
