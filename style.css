@@ -5,6 +5,7 @@
 
 body {
   background-color: #d9d9d9;
+  overflow-x: hidden;
 }
 
 .dark-mode {
@@ -273,9 +274,9 @@ footer a {
 } */
 
 @media only screen and (max-width: 640px) {
-  /* body {
+  body {
     overflow-x: hidden;
-  } */
+  }
 
   .sidenav {
     display: none;
@@ -320,7 +321,7 @@ footer a {
     background-color: white;
     padding: 30px;
     position: absolute;
-    overflow-x: hidden;
+    overflow: hidden;
     width: 90%;
     /* margin-left: -30px; */
     /* margin-top: -15px; */
