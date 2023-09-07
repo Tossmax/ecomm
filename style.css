@@ -273,9 +273,9 @@ footer a {
 } */
 
 @media only screen and (max-width: 640px) {
-  body {
+  /* body {
     overflow-x: hidden;
-  }
+  } */
 
   .sidenav {
     display: none;
@@ -295,7 +295,6 @@ footer a {
     padding: 30px;
     border-bottom: 1px solid #b4b4b4;
     text-align: center;
-    position: relative;
   }
 
   .medium a {
@@ -321,6 +320,7 @@ footer a {
     background-color: white;
     padding: 30px;
     position: absolute;
+    overflow-x: hidden;
     width: 90%;
     /* margin-left: -30px; */
     /* margin-top: -15px; */
