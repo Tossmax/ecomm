@@ -21,7 +21,6 @@ body {
   text-align: center;
   padding: 30px;
   border-bottom: 0.1px solid #b4b4b4;
-  overflow: hidden;
 }
 
 .navbar a {
@@ -274,18 +273,18 @@ footer a {
 } */
 
 @media only screen and (max-width: 640px) {
+  html,
   body {
     overflow-x: hidden;
+    max-width: 100%;
   }
 
   .sidenav {
     display: none;
-    overflow: hidden;
   }
 
   .navbar {
     display: none;
-    overflow: hidden;
   }
 
   .medium {
